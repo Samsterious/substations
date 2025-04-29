@@ -19,11 +19,12 @@
     - "Resources/Maps/**/*.yml"
     - "Resources/Prototypes/Maps/**/*.yml"
 
-"Changes: Sprite":
+"Changes: Asset":
 - changed-files:
   - any-glob-to-any-file:
     - "**/*.rsi/*.png"
     - "**/*.rsi/*.json"
+    - '**/*.ogg'
 
 "Changes: UI":
 - changed-files:
@@ -35,10 +36,7 @@
   - any-glob-to-any-file:
     - "**/*.yml"
 
-"Changes: Shaders":
+"Changes: Shader":
 - changed-files:
   - any-glob-to-any-file: '**/*.swsl'
-
-"Changes: Audio":
-- changed-files:
-  - any-glob-to-any-file: '**/*.ogg'
+    
